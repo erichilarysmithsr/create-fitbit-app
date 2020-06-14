@@ -2,3 +2,17 @@ options:
   cors: true
 actions:
   action: ./actions/action.js
+tasks:
+  task:
+    action: google_bigquery/tables.get
+    schedule: cron(5 8 ? * 0)
+    monitor:
+      action: google_bigquery/tables.get
+      accounts: {}
+      trackBy: ''
+      array: clustering.fields
+      input:
+        datasetId: '""'
+        projectId: '""'
+        tableId: '""'
+    accounts: {}
