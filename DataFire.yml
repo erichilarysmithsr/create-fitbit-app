@@ -21,3 +21,11 @@ paths:
     get:
       action: google_bigquery/tables.get
       accounts: {}
+tests:
+  test:
+    action: google_bigquery/tables.get
+    accounts: {}
+    input:
+      datasetId: '""'
+      projectId: '""'
+      tableId: '""'
