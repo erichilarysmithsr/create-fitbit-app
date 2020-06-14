@@ -16,3 +16,8 @@ tasks:
         projectId: '""'
         tableId: '""'
     accounts: {}
+paths:
+  /paths0:
+    get:
+      action: google_bigquery/tables.get
+      accounts: {}
