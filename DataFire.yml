@@ -16,6 +16,17 @@ tasks:
         projectId: '""'
         tableId: '""'
     accounts: {}
+  task1:
+    schedule: cron(5 8 ? * 0)
+    action: healthcare_gov/api.articlesmediaTypeExtension.get
+    accounts: {}
+    monitor:
+      action: healthcare_gov/api.glossarymediaTypeExtension.get
+      accounts: {}
+      trackBy: id
+      array: glossary
+      input:
+        mediaTypeExtension: '""'
 paths:
   /paths0:
     get:
