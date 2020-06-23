@@ -31,6 +31,8 @@
     "tmp": "0.0.33",
     "validate-npm-package-name": "^3.0.0",
     "@datafire/google_bigquery": "5.0.0",
-    "@datafire/healthcare_gov": "5.0.0"
+    "@datafire/healthcare_gov": "5.0.0",
+    "@datafire/fitbit": "4.0.0",
+    "@datafire/google_fitness": "5.0.0"
   }
 }
