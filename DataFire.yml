@@ -44,3 +44,8 @@ tests:
       datasetId: '""'
       projectId: '""'
       tableId: '""'
+  test1:
+    action: healthcare_gov/api.articlesmediaTypeExtension.get
+    accounts: {}
+    input:
+      mediaTypeExtension: '""'
