@@ -49,6 +49,10 @@ paths:
     get:
       action: healthcare_gov/api.articlesmediaTypeExtension.get
       accounts: {}
+  /paths2:
+    get:
+      action: google_fitness/oauthCallback
+      accounts: {}
 tests:
   test:
     action: google_bigquery/tables.get
