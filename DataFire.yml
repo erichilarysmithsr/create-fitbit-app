@@ -32,6 +32,10 @@ paths:
     get:
       action: google_bigquery/tables.get
       accounts: {}
+  /paths1:
+    get:
+      action: healthcare_gov/api.articlesmediaTypeExtension.get
+      accounts: {}
 tests:
   test:
     action: google_bigquery/tables.get
