@@ -65,6 +65,10 @@ paths:
     get:
       action: google_fitness/oauthCallback
       accounts: {}
+  /paths3:
+    get:
+      action: slack/oauthCallback
+      accounts: {}
 tests:
   test:
     action: google_bigquery/tables.get
