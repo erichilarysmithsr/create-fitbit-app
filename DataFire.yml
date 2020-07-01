@@ -87,3 +87,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test3:
+    action: slack/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
