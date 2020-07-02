@@ -128,3 +128,8 @@ tests:
     action: google_genomics/oauthCallback
     accounts: {}
     input: {}
+  test5:
+    action: osf/wiki_read
+    accounts: {}
+    input:
+      wiki_id: '""'
