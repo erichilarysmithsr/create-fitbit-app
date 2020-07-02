@@ -108,3 +108,7 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test4:
+    action: google_genomics/oauthCallback
+    accounts: {}
+    input: {}
