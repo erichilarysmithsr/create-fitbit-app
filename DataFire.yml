@@ -53,6 +53,17 @@ tasks:
       array: ''
       input:
         code: '""'
+  task4:
+    schedule: cron(5 8 ? * 0)
+    action: google_genomics/oauthCallback
+    accounts: {}
+    monitor:
+      action: google_genomics/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:
