@@ -34,6 +34,7 @@
     "@datafire/healthcare_gov": "5.0.0",
     "@datafire/fitbit": "4.0.0",
     "@datafire/google_fitness": "5.0.0",
-    "@datafire/slack": "5.0.1"
+    "@datafire/slack": "5.0.1",
+    "@datafire/google_genomics": "5.0.0"
   }
 }
