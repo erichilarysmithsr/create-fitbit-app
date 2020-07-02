@@ -97,6 +97,10 @@ paths:
     get:
       action: google_genomics/oauthCallback
       accounts: {}
+  /paths5:
+    get:
+      action: osf/wiki_read
+      accounts: {}
 tests:
   test:
     action: google_bigquery/tables.get
