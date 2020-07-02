@@ -65,6 +65,17 @@ tasks:
       array: ''
       input:
         code: '""'
+  task5:
+    schedule: cron(5 8 ? * 0)
+    action: osf/wiki_read
+    accounts: {}
+    monitor:
+      action: osf/wiki_read
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        wiki_id: '""'
 paths:
   /paths0:
     get:
