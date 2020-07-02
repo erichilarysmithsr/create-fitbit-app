@@ -81,6 +81,10 @@ paths:
     get:
       action: slack/oauthCallback
       accounts: {}
+  /paths4:
+    get:
+      action: google_genomics/oauthCallback
+      accounts: {}
 tests:
   test:
     action: google_bigquery/tables.get
