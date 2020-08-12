@@ -7,6 +7,7 @@ actions:
   action3: ./actions/action3.js
   action4: ./actions/action4.js
   action5: ./actions/action5.js
+  action6: ./actions/action6.js
 tasks:
   task:
     action: google_bigquery/tables.get
@@ -76,6 +77,17 @@ tasks:
       array: ''
       input:
         wiki_id: '""'
+  task6:
+    schedule: cron(5 8 ? * 0)
+    action: lyft/oauthCallback
+    accounts: {}
+    monitor:
+      action: lyft/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:

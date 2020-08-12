@@ -36,6 +36,7 @@
     "@datafire/google_fitness": "5.0.0",
     "@datafire/slack": "5.0.1",
     "@datafire/google_genomics": "5.0.0",
-    "@datafire/osf": "4.0.0"
+    "@datafire/osf": "4.0.0",
+    "@datafire/lyft": "5.0.0"
   }
 }
