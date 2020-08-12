@@ -113,6 +113,10 @@ paths:
     get:
       action: osf/wiki_read
       accounts: {}
+  /paths6:
+    get:
+      action: lyft/oauthCallback
+      accounts: {}
 tests:
   test:
     action: google_bigquery/tables.get
