@@ -149,3 +149,8 @@ tests:
     accounts: {}
     input:
       wiki_id: '""'
+  test6:
+    action: lyft/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
