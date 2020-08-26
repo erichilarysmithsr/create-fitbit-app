@@ -100,6 +100,16 @@ tasks:
       trackBy: ValueDescription
       array: Results.LuValues
       input: {}
+  task8:
+    schedule: cron(5 8 ? * 0)
+    action: epa_gov_sdw/sdw_rest_services.metadata.get
+    accounts: {}
+    monitor:
+      action: epa_gov_sdw/sdw_rest_services.metadata.get
+      accounts: {}
+      trackBy: ObjectName
+      array: Results.ResultColumns
+      input: {}
 paths:
   /paths0:
     get:
