@@ -128,6 +128,10 @@ paths:
     get:
       action: lyft/oauthCallback
       accounts: {}
+  /paths7:
+    get:
+      action: epa_gov_cwa/rest_lookups.cwa_pollutants.get
+      accounts: {}
 tests:
   test:
     action: google_bigquery/tables.get
