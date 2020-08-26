@@ -38,6 +38,7 @@
     "@datafire/google_genomics": "5.0.0",
     "@datafire/osf": "4.0.0",
     "@datafire/lyft": "5.0.0",
-    "@datafire/epa_gov_cwa": "5.0.0"
+    "@datafire/epa_gov_cwa": "5.0.0",
+    "@datafire/epa_gov_sdw": "5.0.0"
   }
 }
