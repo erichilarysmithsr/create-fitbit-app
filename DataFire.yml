@@ -169,3 +169,7 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test7:
+    action: epa_gov_cwa/rest_lookups.cwa_pollutants.get
+    accounts: {}
+    input: {}
