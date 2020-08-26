@@ -89,6 +89,16 @@ tasks:
       array: ''
       input:
         code: '""'
+  task7:
+    schedule: cron(5 8 ? * 0)
+    action: epa_gov_cwa/rest_lookups.cwa_pollutants.get
+    accounts: {}
+    monitor:
+      action: epa_gov_cwa/rest_lookups.cwa_pollutants.get
+      accounts: {}
+      trackBy: ValueDescription
+      array: Results.LuValues
+      input: {}
 paths:
   /paths0:
     get:
