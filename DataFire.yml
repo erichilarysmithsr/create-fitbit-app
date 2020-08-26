@@ -188,3 +188,7 @@ tests:
     action: epa_gov_cwa/rest_lookups.cwa_pollutants.get
     accounts: {}
     input: {}
+  test8:
+    action: epa_gov_sdw/sdw_rest_services.metadata.get
+    accounts: {}
+    input: {}
