@@ -173,6 +173,10 @@ paths:
     get:
       action: mcw_edu/getGeneAllelesUsingGET
       accounts: {}
+  /paths10:
+    get:
+      action: amazonaws_a4b/GetDevice
+      accounts: {}
 tests:
   test:
     action: google_bigquery/tables.get
