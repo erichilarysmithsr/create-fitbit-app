@@ -195,6 +195,10 @@ paths:
     get:
       action: amazonaws_a4b/GetDevice
       accounts: {}
+  /paths11:
+    get:
+      action: walmart_order/getAllOrders
+      accounts: {}
 tests:
   test:
     action: google_bigquery/tables.get
