@@ -133,6 +133,23 @@ tasks:
       trackBy: Code
       array: Device.DeviceStatusInfo.DeviceStatusDetails
       input: {}
+  task11:
+    schedule: cron(5 8 ? * 0)
+    action: walmart_order/getAllOrders
+    accounts: {}
+    monitor:
+      action: walmart_order/getAllOrders
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        Accept: '""'
+        WM_CONSUMER.CHANNEL.TYPE: '""'
+        WM_CONSUMER.ID: '""'
+        WM_SEC.TIMESTAMP: '""'
+        WM_SEC.AUTH_SIGNATURE: '""'
+        WM_SVC.NAME: '""'
+        WM_QOS.CORRELATION_ID: '""'
 paths:
   /paths0:
     get:
