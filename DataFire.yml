@@ -120,7 +120,7 @@ tasks:
       accounts: {}
       trackBy: variant
       input:
-        rgdId: -1
+        rgdId: 0
 paths:
   /paths0:
     get:
