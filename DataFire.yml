@@ -227,3 +227,7 @@ tests:
     accounts: {}
     input:
       rgdId: 0
+  test10:
+    action: amazonaws_a4b/GetDevice
+    accounts: {}
+    input: {}
