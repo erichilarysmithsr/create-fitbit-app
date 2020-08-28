@@ -111,6 +111,16 @@ tasks:
       trackBy: ObjectName
       array: Results.ResultColumns
       input: {}
+  task9:
+    schedule: cron(5 8 ? * 0)
+    action: mcw_edu/getGeneAllelesUsingGET
+    accounts: {}
+    monitor:
+      action: mcw_edu/getGeneAllelesUsingGET
+      accounts: {}
+      trackBy: variant
+      input:
+        rgdId: -1
 paths:
   /paths0:
     get:
