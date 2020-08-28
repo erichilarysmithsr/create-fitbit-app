@@ -122,6 +122,16 @@ tasks:
       trackBy: variant
       input:
         rgdId: 0
+  task10:
+    schedule: cron(5 8 ? * 0)
+    action: amazonaws_a4b/GetDevice
+    accounts: {}
+    monitor:
+      action: amazonaws_a4b/GetDevice
+      accounts: {}
+      trackBy: Code
+      array: Device.DeviceStatusInfo.DeviceStatusDetails
+      input: {}
 paths:
   /paths0:
     get:
