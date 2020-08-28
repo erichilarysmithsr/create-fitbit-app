@@ -41,6 +41,7 @@
     "@datafire/epa_gov_cwa": "5.0.0",
     "@datafire/epa_gov_sdw": "5.0.0",
     "@datafire/mcw_edu": "4.0.0",
-    "@datafire/amazonaws_a4b": "5.0.0"
+    "@datafire/amazonaws_a4b": "5.0.0",
+    "@datafire/walmart_order": "3.0.0"
   }
 }
