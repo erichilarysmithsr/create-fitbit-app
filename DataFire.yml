@@ -253,3 +253,14 @@ tests:
     action: amazonaws_a4b/GetDevice
     accounts: {}
     input: {}
+  test11:
+    action: walmart_order/getAllOrders
+    accounts: {}
+    input:
+      Accept: '""'
+      WM_CONSUMER.CHANNEL.TYPE: '""'
+      WM_CONSUMER.ID: '""'
+      WM_SEC.TIMESTAMP: '""'
+      WM_SEC.AUTH_SIGNATURE: '""'
+      WM_SVC.NAME: '""'
+      WM_QOS.CORRELATION_ID: '""'
