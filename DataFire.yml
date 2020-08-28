@@ -207,3 +207,8 @@ tests:
     action: epa_gov_sdw/sdw_rest_services.metadata.get
     accounts: {}
     input: {}
+  test9:
+    action: mcw_edu/getGeneAllelesUsingGET
+    accounts: {}
+    input:
+      rgdId: 0
