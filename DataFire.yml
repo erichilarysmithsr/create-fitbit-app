@@ -158,6 +158,10 @@ paths:
     get:
       action: epa_gov_sdw/sdw_rest_services.metadata.get
       accounts: {}
+  /paths9:
+    get:
+      action: mcw_edu/getGeneAllelesUsingGET
+      accounts: {}
 tests:
   test:
     action: google_bigquery/tables.get
